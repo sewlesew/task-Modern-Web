@@ -1,0 +1,21 @@
+fullname: Sewlesew Yaregal
+opinion: suggestion
+_csrf: jZ78O86p-6VF6gyc95gxVVURjirKLqzxru-o
+message:  This is a suggestion
+ipaddress: 127.0.0.1
+
+
+fullname: Mathew Flamini
+opinion: complaint
+_csrf: PQPBoQms-gUM5DAtMok8mBExGkxLcfPJ-9Po
+message:  This is a complaint
+ipaddress: 127.0.0.1
+
+
+fullname: Matiyas Yaregal
+opinion: suggestion
+_csrf: uEZRM402-K_VjjDHKk15cdFBwgB0HhHMDLdE
+message:  good
+ipaddress: 127.0.0.1
+
+

@@ -1,0 +1,34 @@
+<!doctype>
+<html>
+    <head>
+        <title>Contact us</title>
+        <meta charset='utf8'>
+        <link href='https://fonts.google.com/specimen/Roboto' type="text/css" rel='stylesheet'>
+        <link href='/css' type='text/css' rel='stylesheet'>
+    </head>
+    
+    <body>
+        
+       
+       
+            <fieldset>
+                <legend > Contact us </legend>
+ <form action="/contactus" method="post" id="contactform">
+                <p> Full Name: <input type="text" name="fullname" > </p>
+        <p>  Type :  <input type="radio" name="opinion" value='suggestion' checked>suggestion
+         <input type='radio' name="opinion" value='complaint' > complaint </p> 
+ <input type='hidden' name="_csrf" value='<%=csrfTokens%>'>
+
+             <p> <input type='Submit'></p>
+          
+             </form>
+           <p> <span>Message</span> :<textarea name='message' rows='10' cols="65" form="contactform"> </textarea> </p>                
+               <div > <%-errmessage-%></div>
+                </fieldset>
+               
+      
+    
+    </body>
+
+
+</html>

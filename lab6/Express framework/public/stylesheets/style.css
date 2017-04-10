@@ -1,0 +1,33 @@
+
+
+body{
+    
+    font-family: 'roboto';
+    font-size:17px;
+}
+
+fieldset {
+    width:50%;
+    background: lightgray;
+    margin: 0 auto;   
+}
+
+legend{
+    border: 1px groove green;
+    font-size:18px;
+    background: lightgray;
+   
+}
+
+textarea{
+    font-size: 18px;
+}
+    
+input[type='submit']:hover{
+    background: black;
+    color:white;
+}
+
+#output{
+color:red;
+}
